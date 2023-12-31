@@ -1,5 +1,6 @@
 import 'package:doctor_side/models/my_model.dart';
 import 'package:doctor_side/pages/comunity%20forum%20page/community_forum_page.dart';
+import 'package:doctor_side/pages/payment%20page/payment_page.dart';
 import 'package:doctor_side/utils/colors.dart';
 import 'package:doctor_side/utils/font_styles.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +40,7 @@ class MyCardWidget extends StatelessWidget {
                 ],
               ),
               child: GestureDetector(
-                onTap: () => Get.to(const CommunityForumPage()),
+                onTap: () => Get.to(pages[index]),
                 child: Padding(
                   padding:
                       const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
@@ -169,4 +170,15 @@ List<MyModel> myList = [
     img: 'assets/icons/unavailable.png',
     name: 'Inform Unavailability',
   ),
+];
+
+List<Widget> pages = [
+  PaymentPage(),
+  PaymentPage(),
+  PaymentPage(),
+  PaymentPage(),
+  PaymentPage(),
+  PaymentPage(),
+  CommunityForumPage(),
+  PaymentPage(),
 ];

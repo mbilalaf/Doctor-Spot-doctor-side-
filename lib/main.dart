@@ -1,13 +1,15 @@
+import 'package:doctor_side/controllers/tab_bar_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'pages/home page/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  MyApp({super.key});
+  TbaBarController controller = Get.put(TbaBarController());
 
   @override
   Widget build(BuildContext context) {

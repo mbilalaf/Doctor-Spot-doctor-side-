@@ -3,7 +3,6 @@ import 'package:doctor_side/pages/notifications%20page/patient_request_card_widg
 import 'package:doctor_side/utils/colors.dart';
 import 'package:doctor_side/utils/font_styles.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class NotificationPage extends StatelessWidget {
   const NotificationPage({super.key});
