@@ -173,12 +173,12 @@ List<MyModel> myList = [
 ];
 
 List<Widget> pages = [
-  PaymentPage(),
-  PaymentPage(),
-  PaymentPage(),
-  PaymentPage(),
-  PaymentPage(),
-  PaymentPage(),
-  CommunityForumPage(),
-  PaymentPage(),
+  const PaymentPage(),
+  const PaymentPage(),
+  const PaymentPage(),
+  const PaymentPage(),
+  const PaymentPage(),
+  const PaymentPage(),
+  const CommunityForumPage(),
+  const PaymentPage(),
 ];

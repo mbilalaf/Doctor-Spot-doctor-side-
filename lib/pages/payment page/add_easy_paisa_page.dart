@@ -7,7 +7,7 @@ class AddEasyPaisa extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('heloos'),
+        title: const Text('heloos'),
       ),
     );
   }

@@ -16,6 +16,7 @@ class MyListTile extends StatelessWidget {
         return Padding(
           padding: const EdgeInsets.only(left: 16),
           child: ListTile(
+            onTap: myList[index].onTap,
             leading: Image(
               height: 16,
               image: AssetImage(
